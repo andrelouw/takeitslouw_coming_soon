@@ -1,0 +1,107 @@
+
+/* ==========================================================================
+Fonts
+========================================================================== */
+
+@font-face {
+    font-family: lemon-tuesday;
+    src: url(../fonts/LemonTuesday.otf);
+}
+
+@font-face {
+    font-family: futura-light;
+    src: url(../fonts/FuturaLight.otf);
+}
+
+/* ==========================================================================
+Base
+========================================================================== */
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+body {
+    margin: 0;
+    font-family: futura-book, sans-serif;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* ==========================================================================
+Typography
+========================================================================== */
+
+h1 {  font-size: 5em; margin: 0.67em 0; font-family: lemon-tuesday}
+h4 {  font-size: 1.5em; margin: 0.5em 0 0.2em 0; font-family: futura-book}
+
+/* ==========================================================================
+Landing Page
+========================================================================== */
+.landing {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: #20273a;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.landing img {
+    margin-top: 200px;
+    width: 400px;
+}
+
+.landing .landing-body {
+    vertical-align: middle;
+}
+
+.landing h1 {
+    margin: 0;
+    font-size: 9em;
+    color: #FFFFFF;
+}
+
+.tagline {
+    display: table;
+    width: 100%;
+    /*height: 100%;*/
+    text-align: center;
+    color: white;
+    background-color: #20273a;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tagline h4 {
+    margin-top: -20%;
+    font-family: futura-light;
+    font-size: 2.5em;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+}
+
+/* ==========================================================================
+Waypoints
+========================================================================== */
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-15s { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
+.delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
+.delay-25s { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }
+
+
+
+
